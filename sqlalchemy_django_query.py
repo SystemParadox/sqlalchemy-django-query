@@ -38,9 +38,9 @@ class DjangoQueryMixin(object):
     """
     _underscore_operators = {
         'gt':           operators.gt,
-        'lte':          operators.lt,
+        'lt':           operators.lt,
         'gte':          operators.ge,
-        'le':           operators.le,
+        'lte':          operators.le,
         'contains':     operators.contains_op,
         'in':           operators.in_op,
         'exact':        operators.eq,
